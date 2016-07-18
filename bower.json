@@ -1,7 +1,7 @@
 {
   "name": "webitects-ng-lodash",
   "version": "0.1",
-  "main": ["lodash.js"],
+  "main": "./lodash.js",
   "ignore": [
     "examples",
     "src"
