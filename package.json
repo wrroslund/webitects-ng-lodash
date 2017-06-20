@@ -1,23 +1,25 @@
 {
   "name": "webitects-ng-lodash",
   "version": "0.1.1",
-  "description": "angular wrapper for lodash",
-  "main": "./lodash.js",
+  "description": "angular 1 wrapper for lodash",
+  "main": "lodash.js",
   "dependencies": {
-    "lodash": ">=1.3.0",
-    "angular": "~1.x"
+    "angular": "~1.x",
+    "lodash": ">=1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "hg",
-    "url": "https://hg.webitects.com/hg.cgi/webitects-ng-lodash"
-  },
-  "bugs": {
-    "url": ""
+    "type": "git",
+    "url": "git+https://bitbucket.org/webitects-dev/webitects-ng-lodash.git"
   },
   "keywords": [
-    "angular",
     "lodash",
+    "angular"
   ],
   "author": "Rich Roslund <richr@webitects.com> ",
-  "license": "MIT"
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/webitects-dev/webitects-ng-lodash#readme"
 }
